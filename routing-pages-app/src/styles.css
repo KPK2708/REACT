@@ -1,0 +1,51 @@
+/* src/styles.css */
+
+/* Basic page styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .navbar {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    color: #4caf50;
+  }
+  
+  /* Page container */
+  .page-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .page-container h1 {
+    color: #333;
+  }
+  
+  .page-container p {
+    font-size: 18px;
+    color: #666;
+  }
+  
